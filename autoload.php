@@ -1,6 +1,6 @@
-﻿<?php
-
-declare(strict_types=1);
+<?php
+/*
+declare(strict_types=1);*/
 
 spl_autoload_register(function (string $classe): void {
     $prefixo = 'BibliotecaORM\\';
